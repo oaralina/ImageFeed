@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19D166A92C88E9CE0033497E /* ImagesListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D166A82C88E9CE0033497E /* ImagesListCell.swift */; };
 		19E9FE982C629A330061B844 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E9FE972C629A330061B844 /* AppDelegate.swift */; };
 		19E9FE9A2C629A330061B844 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E9FE992C629A330061B844 /* SceneDelegate.swift */; };
 		19E9FE9C2C629A330061B844 /* ImagesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E9FE9B2C629A330061B844 /* ImagesListViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19D166A82C88E9CE0033497E /* ImagesListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesListCell.swift; sourceTree = "<group>"; };
 		19E9FE942C629A330061B844 /* ImageFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19E9FE972C629A330061B844 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19E9FE992C629A330061B844 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19D166AA2C88E9EB0033497E /* ImagesList */ = {
+			isa = PBXGroup;
+			children = (
+				19E9FE9B2C629A330061B844 /* ImagesListViewController.swift */,
+				19D166A82C88E9CE0033497E /* ImagesListCell.swift */,
+			);
+			path = ImagesList;
+			sourceTree = "<group>";
+		};
 		19E9FE8B2C629A330061B844 = {
 			isa = PBXGroup;
 			children = (
@@ -58,9 +69,9 @@
 		19E9FE962C629A330061B844 /* ImageFeed */ = {
 			isa = PBXGroup;
 			children = (
+				19D166AA2C88E9EB0033497E /* ImagesList */,
 				19E9FE972C629A330061B844 /* AppDelegate.swift */,
 				19E9FE992C629A330061B844 /* SceneDelegate.swift */,
-				19E9FE9B2C629A330061B844 /* ImagesListViewController.swift */,
 				19E9FE9D2C629A330061B844 /* Main.storyboard */,
 				19E9FEA32C629A360061B844 /* Assets.xcassets */,
 				19E9FEA52C629A360061B844 /* LaunchScreen.storyboard */,
@@ -143,6 +154,7 @@
 			files = (
 				19E9FE9C2C629A330061B844 /* ImagesListViewController.swift in Sources */,
 				19E9FEA22C629A330061B844 /* ImageFeed.xcdatamodeld in Sources */,
+				19D166A92C88E9CE0033497E /* ImagesListCell.swift in Sources */,
 				19E9FE982C629A330061B844 /* AppDelegate.swift in Sources */,
 				19E9FE9A2C629A330061B844 /* SceneDelegate.swift in Sources */,
 			);
