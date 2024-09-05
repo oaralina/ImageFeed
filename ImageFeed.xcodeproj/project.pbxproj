@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19D166A92C88E9CE0033497E /* ImagesListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D166A82C88E9CE0033497E /* ImagesListCell.swift */; };
 		19E9FE982C629A330061B844 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E9FE972C629A330061B844 /* AppDelegate.swift */; };
 		19E9FE9A2C629A330061B844 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E9FE992C629A330061B844 /* SceneDelegate.swift */; };
-		19E9FE9C2C629A330061B844 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E9FE9B2C629A330061B844 /* ViewController.swift */; };
+		19E9FE9C2C629A330061B844 /* ImagesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E9FE9B2C629A330061B844 /* ImagesListViewController.swift */; };
 		19E9FE9F2C629A330061B844 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 19E9FE9E2C629A330061B844 /* Base */; };
 		19E9FEA22C629A330061B844 /* ImageFeed.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 19E9FEA02C629A330061B844 /* ImageFeed.xcdatamodeld */; };
 		19E9FEA42C629A360061B844 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19E9FEA32C629A360061B844 /* Assets.xcassets */; };
@@ -17,10 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19D166A82C88E9CE0033497E /* ImagesListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesListCell.swift; sourceTree = "<group>"; };
 		19E9FE942C629A330061B844 /* ImageFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19E9FE972C629A330061B844 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19E9FE992C629A330061B844 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		19E9FE9B2C629A330061B844 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		19E9FE9B2C629A330061B844 /* ImagesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesListViewController.swift; sourceTree = "<group>"; };
 		19E9FE9E2C629A330061B844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		19E9FEA12C629A330061B844 /* ImageFeed.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ImageFeed.xcdatamodel; sourceTree = "<group>"; };
 		19E9FEA32C629A360061B844 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -39,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19D166AA2C88E9EB0033497E /* ImagesList */ = {
+			isa = PBXGroup;
+			children = (
+				19E9FE9B2C629A330061B844 /* ImagesListViewController.swift */,
+				19D166A82C88E9CE0033497E /* ImagesListCell.swift */,
+			);
+			path = ImagesList;
+			sourceTree = "<group>";
+		};
 		19E9FE8B2C629A330061B844 = {
 			isa = PBXGroup;
 			children = (
@@ -58,9 +69,9 @@
 		19E9FE962C629A330061B844 /* ImageFeed */ = {
 			isa = PBXGroup;
 			children = (
+				19D166AA2C88E9EB0033497E /* ImagesList */,
 				19E9FE972C629A330061B844 /* AppDelegate.swift */,
 				19E9FE992C629A330061B844 /* SceneDelegate.swift */,
-				19E9FE9B2C629A330061B844 /* ViewController.swift */,
 				19E9FE9D2C629A330061B844 /* Main.storyboard */,
 				19E9FEA32C629A360061B844 /* Assets.xcassets */,
 				19E9FEA52C629A360061B844 /* LaunchScreen.storyboard */,
@@ -141,8 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19E9FE9C2C629A330061B844 /* ViewController.swift in Sources */,
+				19E9FE9C2C629A330061B844 /* ImagesListViewController.swift in Sources */,
 				19E9FEA22C629A330061B844 /* ImageFeed.xcdatamodeld in Sources */,
+				19D166A92C88E9CE0033497E /* ImagesListCell.swift in Sources */,
 				19E9FE982C629A330061B844 /* AppDelegate.swift in Sources */,
 				19E9FE9A2C629A330061B844 /* SceneDelegate.swift in Sources */,
 			);
@@ -310,7 +322,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ru.yandex.practicum.ImageFeed;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.yandex.practicum.ImageFeed1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -343,7 +355,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ru.yandex.practicum.ImageFeed;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.yandex.practicum.ImageFeed1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
